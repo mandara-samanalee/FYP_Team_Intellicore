@@ -1,0 +1,18 @@
+# Large data files
+data/raw/
+*.csv
+*.json
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model weights (too large for GitHub)
+*.pt
+*.bin
+*.h5
