@@ -1,9 +1,16 @@
 # Large data files
-data/raw/
+# Keep the raw data directory structure in the repo
+# and allow specific files to be added when needed.
 *.csv
 *.json
 *.parquet
 *.gz
+
+!data/raw/.gitkeep
+!data/raw/*.csv
+!data/raw/*.json
+!data/raw/*.parquet
+!data/raw/*.gz
 
 # Python
 __pycache__/
