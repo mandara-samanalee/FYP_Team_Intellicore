@@ -3,6 +3,7 @@ data/raw/
 *.csv
 *.json
 *.parquet
+*.gz
 
 # Python
 __pycache__/

@@ -1,0 +1,13 @@
+streamlit>=1.30.0
+pandas>=2.0.0
+numpy>=1.24.0
+networkx>=3.0
+matplotlib>=3.7.0
+plotly>=5.18.0
+
+# Uncomment and add these once you wire in your real trained models:
+# torch
+# transformers
+# scikit-learn
+# python-louvain
+# joblib
