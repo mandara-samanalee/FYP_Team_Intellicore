@@ -6,6 +6,8 @@
 *.parquet
 *.gz
 
+!demo/scripts/df_fusion_scored_sample.csv
+
 !data/raw/.gitkeep
 !data/raw/*.csv
 !data/raw/*.json
